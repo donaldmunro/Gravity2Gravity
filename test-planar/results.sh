@@ -1,0 +1,13 @@
+./planargrav -q -d 0.42 -3 near-left.wmatch -m near-left_5.match images/middle/centre.yaml images/near/left.yaml
+./planargrav -q -d 0.42 -3 near-left-rot.wmatch -m near-left-rot_5.match images/middle/centre.yaml images/near/left-rot.yaml
+./planargrav -q -d 0.42 -3 near-right.wmatch -m near-right_5.match images/middle/centre.yaml images/near/right.yaml
+./planargrav -q -d 0.42 -3 near-right-rot.wmatch -m near-right-rot_5.match images/middle/centre.yaml images/near/right-rot.yaml
+./planargrav -q -d 0.42 -3 middle-left.wmatch -m middle-left_5.match images/middle/centre.yaml images/middle/left.yaml
+./planargrav -q -d 0.42 -3 middle-left-rot.wmatch -m middle-left-rot_5.match images/middle/centre.yaml images/middle/left-rot.yaml
+./planargrav -q -d 0.42 -3 middle-up.wmatch -m middle-up_5.match images/middle/centre.yaml images/middle/up.yaml
+./planargrav -q -d 0.42 -3 middle-right.wmatch -m middle-right_5.match images/middle/centre.yaml images/middle/right.yaml
+./planargrav -q -d 0.42 -3 middle-right-rot.wmatch -m middle-right-rot_5.match images/middle/centre.yaml images/middle/right-rot.yaml
+./planargrav -q -d 0.42 -3 far-left.wmatch -m far-left_5.match images/middle/centre.yaml images/far/left.yaml
+./planargrav -q -d 0.42 -3 far-left-rot.wmatch -m far-left-rot_5.match images/middle/centre.yaml images/far/left-rot.yaml
+./planargrav -q -d 0.42 -3 far-right.wmatch -m far-right_5.match images/middle/centre.yaml images/far/right.yaml
+./planargrav -q -d 0.42 -3 far-right-rot.wmatch -m far-right-rot_5.match images/middle/centre.yaml images/far/right-rot.yaml

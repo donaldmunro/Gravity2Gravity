@@ -1,0 +1,15 @@
+Clock penholder coordinates (X positive right, Y positive down, Z positive
+away)
+Sets origin at top left corner of rectangular base.
+Coordinates in metres.
+See clock-coords.jpg for illustration.
+
+top left      0,0,0
+bottom left   0,0.02,0
+top right     0.14,0,0
+bottom right  0.14,0.02,0
+
+clock left: 0.005,-0.04,0.015
+clock centre: 0.03, -0.04,0.015
+clock right 0.055,-0.04,0.015
+

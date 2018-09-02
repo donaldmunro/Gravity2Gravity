@@ -1,0 +1,57 @@
+# camera intrinsics
+# Intrinsics for default (color) camera
+fx: 1479.832887819
+fy: 1477.564891301
+cx: 976.255980955
+cy: 538.286875345
+distortion: [0.110456430, -0.237897164, 0.226435058, 0.000000000, 0.000000000]
+FOVh: 1.150952412
+FOVv: 0.700772340
+imagewidth: 1080
+imageheight: 1920
+
+# IMU to camera pose for default (color) camera
+# IMU rotation quaternion [w, x, y, z] not corrected for device orientation
+imuRawRotation: [0.004650551, -0.703721637, 0.710459309, 0.001341754]
+# pose rotation quaternion [w, x, y, z] corrected for device orientation
+imuRotation: [-0.002339672, 0.999976873, -0.004764235, -0.004237200]
+# IMU translation [x, y, z] not corrected for device rotation
+imuRawTranslation: [-0.018244933, 0.007993589, -0.004390752]
+# IMU translation [x, y, z] corrected for device rotation
+imuTranslation: [-0.007993589, -0.018244933, -0.004390752]
+
+# Intrinsics for depth camera
+d_fx: 212.983000000
+d_fy: 212.983000000
+d_cx: 112.211000000
+d_cy: 84.721600000
+d_distortion: [-0.149772000, -1.224780000, 0.000850621, -0.001340660, 2.574970000]
+d_FOVh: 0.968247472
+d_FOVv: 0.767535411
+d_imagewidth: 172
+d_imageheight: 224
+
+# IMU to camera pose for depth camera
+# IMU rotation quaternion [w, x, y, z] not corrected for device orientation
+d_imuRawRotation: [0.005528541, -0.705139446, 0.709046505, 0.000921861]
+# pose rotation quaternion [w, x, y, z] corrected for device orientation
+d_imuRotation: [-0.003257415, 0.999980450, -0.002762685, -0.004561123]
+# IMU translation [x, y, z] not corrected for device rotation
+d_imuRawTranslation: [-0.029960680, 0.008991255, -0.004200030]
+# IMU translation [x, y, z] corrected for device rotation
+d_imuTranslation: [-0.008991255, -0.029960679, -0.004200030]
+
+# device rotation (0 = portrait for all phones and many tablets)
+deviceRotation: 90
+# pose rotation quaternion [w, x, y, z] not corrected for device orientation
+rawRotation: [0.603025660, 0.570555952, -0.386655533, 0.401650915]
+# pose rotation quaternion [w, x, y, z] corrected for device orientation
+rotation: [0.142393470, 0.676850736, 0.130037218, 0.710413635]
+# pose translation [x, y, z] not corrected for device rotation
+rawTranslation: [0.101148638, -0.008565093, 0.063140599]
+# pose translation [x, y, z] corrected for device rotation
+translation: [0.008565093, 0.101148635, 0.063140601]
+# Raw Android gravity vector [x, y, z]
+rawGravity: [9.088665962, 3.654040337, 0.463181674]
+# Android gravity vector corrected for device rotation [x, y, z]
+gravity: [-3.654040337, 9.088665962, 0.463181674]
