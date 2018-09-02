@@ -1,0 +1,13 @@
+./pnpgrav -S -m near-left.wmatch images/middle/centre.yaml images/near/left.yaml
+./pnpgrav -S -m near-left-rot.wmatch images/middle/centre.yaml images/near/left-rot.yaml
+./pnpgrav -S -m near-right.wmatch images/middle/centre.yaml images/near/right.yaml
+./pnpgrav -S -m near-right-rot.wmatch images/middle/centre.yaml images/near/right-rot.yaml
+./pnpgrav -S -m middle-left.wmatch images/middle/centre.yaml images/middle/left.yaml
+./pnpgrav -S -m middle-left-rot.wmatch images/middle/centre.yaml images/middle/left-rot.yaml
+./pnpgrav -S -m middle-up.wmatch images/middle/centre.yaml images/middle/up.yaml
+./pnpgrav -S -m middle-right.wmatch images/middle/centre.yaml images/middle/right.yaml
+./pnpgrav -S -m middle-right-rot.wmatch images/middle/centre.yaml images/middle/right-rot.yaml
+./pnpgrav -S -m far-left.wmatch images/middle/centre.yaml images/far/left.yaml
+./pnpgrav -S -m far-left-rot.wmatch images/middle/centre.yaml images/far/left-rot.yaml
+./pnpgrav -S -m far-right.wmatch images/middle/centre.yaml images/far/right.yaml
+./pnpgrav -S -m far-right-rot.wmatch images/middle/centre.yaml images/far/right-rot.yaml
